@@ -1,0 +1,77 @@
+body{
+    background-image: url(../imagenes/img100.jpg); 
+   margin: 0;
+   padding: 0;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  h1{
+    border: 0px solid black;
+    padding: 0px;
+    background-color: #836e6e;
+    font-size: 2em;
+    text-align: center;
+  }
+
+  caption{
+    border: 0px solid black;
+    padding: 0px;
+    background-color: #bdf33e;
+    font-size: 2em;
+    text-align: center;
+    margin: auto;
+}
+table{
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+b{
+  color: maroon;font-size: 32px;font-family: Verdana;
+  
+}
+
+i {
+  color: maroon;
+}
+th{
+    background-color: #d37c7c;
+    color: #bdf33e;font-size: 40px;font-family:fantasy;
+  
+}
+
+nav button {
+  background-color: #12dd4f; /* Color de fondo para los botones */
+  color: #080808; /* Color del texto dentro de los botones */
+  border: none; /* Elimina el borde de los botones */
+  border-radius: 4px; /* Agrega bordes redondeados a los botones */
+  padding: 8px 16px; /* Añade espacio interno alrededor del texto del botón */
+  font-size: 15px; /* Tamaño de fuente para el texto del botón */
+  cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+    
+}
+/* Estilos para el botón activo (cuando se hace clic o se selecciona) */
+nav button:focus,
+nav button:active {
+background-color: #dbf1f1; /* Cambia el color de fondo cuando el botón está activo */
+}
+li{
+  color: #080808; /* Color del texto dentro de los botones */
+  border: none; /* Elimina el borde de los botones */
+  border-radius: 4px; /* Agrega bordes redondeados a los botones */
+  padding: 8px 16px; /* Añade espacio interno alrededor del texto del botón */
+  font-size: 15px; /* Tamaño de fuente para el texto del botón */
+  cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+  list-style: none;
+}
+
+.footer{
+  color: rgb(8, 2, 2);
+  text-align:right;
+  position: sticky;
+  width: 100%;
+  
+ }

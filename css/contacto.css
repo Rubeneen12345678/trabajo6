@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    background: blueviolet;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+ }
+.imagen-posicionada {
+    position: absolute;
+    top: 25px;
+    left: 75px;
+}
+
+.miContacto {
+    background: greenyellow;
+    height: 10rem;
+    width: 100%;
+    border-radius: 10rem;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+ 
+  /* Estilos para el botón de envío */
+  input[type="submit"] {
+    padding: 10px 20px;
+    color: rgb(56, 49, 49);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+/* Estilos para el botón de restablecer */
+input[type="reset"] {
+  padding: 10px 20px;
+  color: rgb(56, 49, 49);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.footerContacto {
+    background: rgb(47, 255, 245); position: sticky;
+    margin: auto;
+    height: 14rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

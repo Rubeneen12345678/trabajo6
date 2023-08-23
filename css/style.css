@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-image: url(../img/faro1.jpg); 
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   
+   }
+   
+   .miclase{
+   background-color: rgb(43, 189, 226);
+   font-size: 200%;
+   border-style:dotted;
+   padding-left: 15em;
+   
+   }
+   .imagencircular{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 75%;
+   overflow:hidden;
+   
+   }
+   nav {
+       border: 0px solid black;
+       padding: 0px;
+       background-color: #d37c7c;
+       
+     }
+     
+     nav lo {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-around; /* Distribuye los botones equitativamente */
+      align-items: center; /* Centra verticalmente los botones */
+      background-color: #d37c7c; /* Color de fondo para el elemento nav */
+      padding: 2px; /* Añade espacio interno alrededor de los botones */
+  }
+  nav line {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around; /* Distribuye los botones equitativamente */
+    align-items: center; /* Centra verticalmente los botones */
+    background-color: #d37c7c; /* Color de fondo para el elemento nav */
+    padding: 2px; /* Añade espacio interno alrededor de los botones */
+}
+   nav button {
+       background-color: #b3ff00; /* Color de fondo para los botones */
+       color: #080808; /* Color del texto dentro de los botones */
+       border: none; /* Elimina el borde de los botones */
+       border-radius: 4px; /* Agrega bordes redondeados a los botones */
+       padding: 8px 16px; /* Añade espacio interno alrededor del texto del botón */
+       font-size: 15px; /* Tamaño de fuente para el texto del botón */
+       cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+     }
+     /* Estilos para el botón activo (cuando se hace clic o se selecciona) */
+   nav button:focus,
+   nav button:active {
+     background-color: #00b3b3; /* Cambia el color de fondo cuando el botón está activo */
+   }
+
+   li{
+    color: #080808; /* Color del texto dentro de los botones */
+    border: none; /* Elimina el borde de los botones */
+    border-radius: 4px; /* Agrega bordes redondeados a los botones */
+    padding: 8px 16px; /* Añade espacio interno alrededor del texto del botón */
+    font-size: 15px; /* Tamaño de fuente para el texto del botón */
+    cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+    list-style: none;
+    line-height-step: center;
+  
+  }
+  
+  nav button:focus,
+  nav button:active {
+  background-color: #00b3b3; /* Cambia el color de fondo cuando el botón está activo */
+  
+  }
+  .container{
+      border: 5px solid black; /* Puedes personalizar el estilo del recuadro aquí */
+      padding: 5px; /* Espacio interno dentro del recuadro */
+      width: 25%; /* Puedes ajustar el ancho del recuadro según tus preferencias */
+      float: right; /* Esto coloca el recuadro a la derecha */
+     
+  }
+      .main-content {
+        flex: 2; /* Hace que el main ocupe el doble del espacio que el footer */
+        padding: 20px;
+    }
+    p{
+      color: #080808;
+      font-size: 20px;
+      font-weight: bold;font-style: italic;
+      line-height: 20px;
+      text-align: center;
+      }
+    
+  .footer{
+    color: red;
+    text-align:right;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    
+   }
+   
